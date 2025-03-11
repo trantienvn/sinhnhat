@@ -5,7 +5,13 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
+  cursor: url('https://cdn.custom-cursor.com/db/7834/32/neon-birthday-cake-and-cap-cursor.png') 16 16, default !important;
 }
+
+a, button {
+  cursor: url('https://cdn.custom-cursor.com/db/7833/32/neon-birthday-cake-and-cap-pointer.png') 16 16, pointer !important;
+}
+
 
 .song {
   visibility: hidden;
@@ -222,7 +228,7 @@ body {
 }
 
 #replay {
-  cursor: pointer;
+  cursor: url('https://cdn.custom-cursor.com/db/7833/32/neon-birthday-cake-and-cap-pointer.png') 16 16, pointer !important;
   z-index: 3;
 }
 
